@@ -1,0 +1,1153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.7.0_45" class="java.beans.XMLDecoder">
+ <object class="genmod.Module">
+  <void property="author">
+   <string>J.Rios</string>
+  </void>
+  <void property="category">
+   <string>Unknown</string>
+  </void>
+  <void property="classes">
+   <void method="add">
+    <object class="genmod.ModClass">
+     <void property="attributes">
+      <void method="add">
+       <object class="genmod.ModAttr">
+        <void property="description">
+         <string>Category Name</string>
+        </void>
+        <void property="fieldName">
+         <string>Category</string>
+        </void>
+        <void property="initVal">
+         <string></string>
+        </void>
+        <void property="name">
+         <string>name</string>
+        </void>
+        <void property="relObjId">
+         <string></string>
+        </void>
+        <void property="relOthId">
+         <string></string>
+        </void>
+        <void property="relOthName">
+         <string></string>
+        </void>
+        <void property="relRelId">
+         <string></string>
+        </void>
+        <void property="required">
+         <boolean>true</boolean>
+        </void>
+        <void property="size">
+         <int>16</int>
+        </void>
+        <void property="string">
+         <string></string>
+        </void>
+        <void property="translate">
+         <boolean>true</boolean>
+        </void>
+        <void property="type">
+         <int>3</int>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="genmod.ModAttr">
+        <void property="description">
+         <string>Category parent category</string>
+        </void>
+        <void property="fieldName">
+         <string>Parent Category</string>
+        </void>
+        <void property="initVal">
+         <string></string>
+        </void>
+        <void property="name">
+         <string>parent_id</string>
+        </void>
+        <void property="relObjId">
+         <string></string>
+        </void>
+        <void property="relOthId">
+         <string></string>
+        </void>
+        <void property="relOthName">
+         <string>academy.course.category</string>
+        </void>
+        <void property="relRelId">
+         <string></string>
+        </void>
+        <void property="required">
+         <boolean>true</boolean>
+        </void>
+        <void property="string">
+         <string></string>
+        </void>
+        <void property="type">
+         <int>9</int>
+        </void>
+       </object>
+      </void>
+     </void>
+     <void property="description">
+      <string>Courses Category</string>
+     </void>
+     <void property="menuPath">
+      <string>Academy/Courses Category</string>
+     </void>
+     <void property="name">
+      <string>academy.course.category</string>
+     </void>
+     <void property="order">
+      <string>name</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="genmod.ModClass">
+     <void property="attributes">
+      <void method="add">
+       <object class="genmod.ModAttr">
+        <void property="description">
+         <string>Course Name</string>
+        </void>
+        <void property="fieldName">
+         <string>Course</string>
+        </void>
+        <void property="initVal">
+         <string></string>
+        </void>
+        <void property="name">
+         <string>name</string>
+        </void>
+        <void property="relObjId">
+         <string></string>
+        </void>
+        <void property="relOthId">
+         <string></string>
+        </void>
+        <void property="relOthName">
+         <string></string>
+        </void>
+        <void property="relRelId">
+         <string></string>
+        </void>
+        <void property="required">
+         <boolean>true</boolean>
+        </void>
+        <void property="size">
+         <int>32</int>
+        </void>
+        <void property="string">
+         <string></string>
+        </void>
+        <void property="translate">
+         <boolean>true</boolean>
+        </void>
+        <void property="type">
+         <int>3</int>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="genmod.ModAttr">
+        <void property="description">
+         <string>Category id</string>
+        </void>
+        <void property="fieldName">
+         <string>Category</string>
+        </void>
+        <void property="initVal">
+         <string></string>
+        </void>
+        <void property="name">
+         <string>category_id</string>
+        </void>
+        <void property="relObjId">
+         <string></string>
+        </void>
+        <void property="relOthId">
+         <string></string>
+        </void>
+        <void property="relOthName">
+         <string>academy.course.category</string>
+        </void>
+        <void property="relRelId">
+         <string></string>
+        </void>
+        <void property="string">
+         <string></string>
+        </void>
+        <void property="type">
+         <int>9</int>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="genmod.ModAttr">
+        <void property="description">
+         <string>Classroom Id</string>
+        </void>
+        <void property="fieldName">
+         <string>ClassRoom</string>
+        </void>
+        <void property="initVal">
+         <string></string>
+        </void>
+        <void property="name">
+         <string>classroom_id</string>
+        </void>
+        <void property="relObjId">
+         <string></string>
+        </void>
+        <void property="relOthId">
+         <string></string>
+        </void>
+        <void property="relOthName">
+         <string>academy.classroom</string>
+        </void>
+        <void property="relRelId">
+         <string></string>
+        </void>
+        <void property="required">
+         <boolean>true</boolean>
+        </void>
+        <void property="string">
+         <string></string>
+        </void>
+        <void property="translate">
+         <boolean>true</boolean>
+        </void>
+        <void property="type">
+         <int>9</int>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="genmod.ModAttr">
+        <void property="description">
+         <string>Course dificulty</string>
+        </void>
+        <void property="fieldName">
+         <string>Dificulty</string>
+        </void>
+        <void property="initVal">
+         <string></string>
+        </void>
+        <void property="name">
+         <string>dificulty</string>
+        </void>
+        <void property="relObjId">
+         <string></string>
+        </void>
+        <void property="relOthId">
+         <string></string>
+        </void>
+        <void property="relOthName">
+         <string></string>
+        </void>
+        <void property="relRelId">
+         <string></string>
+        </void>
+        <void property="selections">
+         <void method="add">
+          <object class="genmod.AttrSelection">
+           <void property="name">
+            <string>Low</string>
+           </void>
+           <void property="value">
+            <string>low</string>
+           </void>
+          </object>
+         </void>
+         <void method="add">
+          <object class="genmod.AttrSelection">
+           <void property="name">
+            <string>Medium</string>
+           </void>
+           <void property="value">
+            <string>medium</string>
+           </void>
+          </object>
+         </void>
+         <void method="add">
+          <object class="genmod.AttrSelection">
+           <void property="name">
+            <string>High</string>
+           </void>
+           <void property="value">
+            <string>high</string>
+           </void>
+          </object>
+         </void>
+        </void>
+        <void property="string">
+         <string></string>
+        </void>
+        <void property="type">
+         <int>8</int>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="genmod.ModAttr">
+        <void property="description">
+         <string>The course length in hours</string>
+        </void>
+        <void property="fieldName">
+         <string>Studies Hours</string>
+        </void>
+        <void property="initVal">
+         <string></string>
+        </void>
+        <void property="name">
+         <string>hours</string>
+        </void>
+        <void property="relObjId">
+         <string></string>
+        </void>
+        <void property="relOthId">
+         <string></string>
+        </void>
+        <void property="relOthName">
+         <string></string>
+        </void>
+        <void property="relRelId">
+         <string></string>
+        </void>
+        <void property="required">
+         <boolean>true</boolean>
+        </void>
+        <void property="string">
+         <string></string>
+        </void>
+        <void property="type">
+         <int>2</int>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="genmod.ModAttr">
+        <void property="description">
+         <string>The course state</string>
+        </void>
+        <void property="fieldName">
+         <string>State</string>
+        </void>
+        <void property="initVal">
+         <string></string>
+        </void>
+        <void property="name">
+         <string>state</string>
+        </void>
+        <void property="relObjId">
+         <string></string>
+        </void>
+        <void property="relOthId">
+         <string></string>
+        </void>
+        <void property="relOthName">
+         <string></string>
+        </void>
+        <void property="relRelId">
+         <string></string>
+        </void>
+        <void property="required">
+         <boolean>true</boolean>
+        </void>
+        <void property="selections">
+         <void method="add">
+          <object class="genmod.AttrSelection">
+           <void property="name">
+            <string>Draft</string>
+           </void>
+           <void property="value">
+            <string>draft</string>
+           </void>
+          </object>
+         </void>
+         <void method="add">
+          <object class="genmod.AttrSelection">
+           <void property="name">
+            <string>Testing</string>
+           </void>
+           <void property="value">
+            <string>testing</string>
+           </void>
+          </object>
+         </void>
+         <void method="add">
+          <object class="genmod.AttrSelection">
+           <void property="name">
+            <string>Stable</string>
+           </void>
+           <void property="value">
+            <string>stable</string>
+           </void>
+          </object>
+         </void>
+        </void>
+        <void property="string">
+         <string></string>
+        </void>
+        <void property="translate">
+         <boolean>true</boolean>
+        </void>
+        <void property="type">
+         <int>8</int>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="genmod.ModAttr">
+        <void property="description">
+         <string>Description</string>
+        </void>
+        <void property="fieldName">
+         <string>Description</string>
+        </void>
+        <void property="initVal">
+         <string></string>
+        </void>
+        <void property="name">
+         <string>description</string>
+        </void>
+        <void property="relObjId">
+         <string></string>
+        </void>
+        <void property="relOthId">
+         <string></string>
+        </void>
+        <void property="relOthName">
+         <string></string>
+        </void>
+        <void property="relRelId">
+         <string></string>
+        </void>
+        <void property="string">
+         <string></string>
+        </void>
+        <void property="type">
+         <int>4</int>
+        </void>
+       </object>
+      </void>
+     </void>
+     <void property="description">
+      <string>Courses by academy</string>
+     </void>
+     <void property="menuPath">
+      <string>Academy/Course</string>
+     </void>
+     <void property="name">
+      <string>academy.course</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="genmod.ModClass">
+     <void property="attributes">
+      <void method="add">
+       <object class="genmod.ModAttr">
+        <void property="description">
+         <string>Name of the classroom</string>
+        </void>
+        <void property="fieldName">
+         <string>Classroom</string>
+        </void>
+        <void property="initVal">
+         <string></string>
+        </void>
+        <void property="name">
+         <string>name</string>
+        </void>
+        <void property="relObjId">
+         <string></string>
+        </void>
+        <void property="relOthId">
+         <string></string>
+        </void>
+        <void property="relOthName">
+         <string></string>
+        </void>
+        <void property="relRelId">
+         <string></string>
+        </void>
+        <void property="required">
+         <boolean>true</boolean>
+        </void>
+        <void property="size">
+         <int>35</int>
+        </void>
+        <void property="string">
+         <string></string>
+        </void>
+        <void property="translate">
+         <boolean>true</boolean>
+        </void>
+        <void property="type">
+         <int>3</int>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="genmod.ModAttr">
+        <void property="description">
+         <string>Classroom location</string>
+        </void>
+        <void property="fieldName">
+         <string>Address</string>
+        </void>
+        <void property="initVal">
+         <string></string>
+        </void>
+        <void property="name">
+         <string>address_id</string>
+        </void>
+        <void property="relObjId">
+         <string></string>
+        </void>
+        <void property="relOthId">
+         <string></string>
+        </void>
+        <void property="relOthName">
+         <string>res.partner.address</string>
+        </void>
+        <void property="relRelId">
+         <string></string>
+        </void>
+        <void property="required">
+         <boolean>true</boolean>
+        </void>
+        <void property="string">
+         <string></string>
+        </void>
+        <void property="type">
+         <int>9</int>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="genmod.ModAttr">
+        <void property="description">
+         <string>Classroom capacity</string>
+        </void>
+        <void property="fieldName">
+         <string>Capacity</string>
+        </void>
+        <void property="initVal">
+         <string>30</string>
+        </void>
+        <void property="name">
+         <string>capacity</string>
+        </void>
+        <void property="relObjId">
+         <string></string>
+        </void>
+        <void property="relOthId">
+         <string></string>
+        </void>
+        <void property="relOthName">
+         <string></string>
+        </void>
+        <void property="relRelId">
+         <string></string>
+        </void>
+        <void property="required">
+         <boolean>true</boolean>
+        </void>
+        <void property="string">
+         <string></string>
+        </void>
+        <void property="type">
+         <int>1</int>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="genmod.ModAttr">
+        <void property="description">
+         <string>The state of the class</string>
+        </void>
+        <void property="fieldName">
+         <string>State</string>
+        </void>
+        <void property="initVal">
+         <string></string>
+        </void>
+        <void property="name">
+         <string>state</string>
+        </void>
+        <void property="relObjId">
+         <string></string>
+        </void>
+        <void property="relOthId">
+         <string></string>
+        </void>
+        <void property="relOthName">
+         <string></string>
+        </void>
+        <void property="relRelId">
+         <string></string>
+        </void>
+        <void property="required">
+         <boolean>true</boolean>
+        </void>
+        <void property="selections">
+         <void method="add">
+          <object class="genmod.AttrSelection">
+           <void property="name">
+            <string>Usable</string>
+           </void>
+           <void property="value">
+            <string>usable</string>
+           </void>
+          </object>
+         </void>
+         <void method="add">
+          <object class="genmod.AttrSelection">
+           <void property="name">
+            <string>In Works</string>
+           </void>
+           <void property="value">
+            <string>in works</string>
+           </void>
+          </object>
+         </void>
+        </void>
+        <void property="string">
+         <string></string>
+        </void>
+        <void property="type">
+         <int>8</int>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="genmod.ModAttr">
+        <void property="description">
+         <string>If the classroom is active or not</string>
+        </void>
+        <void property="fieldName">
+         <string>Active</string>
+        </void>
+        <void property="initVal">
+         <string></string>
+        </void>
+        <void property="name">
+         <string>active</string>
+        </void>
+        <void property="relObjId">
+         <string></string>
+        </void>
+        <void property="relOthId">
+         <string></string>
+        </void>
+        <void property="relOthName">
+         <string></string>
+        </void>
+        <void property="relRelId">
+         <string></string>
+        </void>
+        <void property="string">
+         <string></string>
+        </void>
+       </object>
+      </void>
+     </void>
+     <void property="description">
+      <string>Academy Classrooms</string>
+     </void>
+     <void property="menuPath">
+      <string>Academy/Classroom</string>
+     </void>
+     <void property="name">
+      <string>academy.classroom</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="genmod.ModClass">
+     <void property="attributes">
+      <void method="add">
+       <object class="genmod.ModAttr">
+        <void property="description">
+         <string>Academy Teacher</string>
+        </void>
+        <void property="fieldName">
+         <string>Teacher</string>
+        </void>
+        <void property="initVal">
+         <string></string>
+        </void>
+        <void property="name">
+         <string>name</string>
+        </void>
+        <void property="relObjId">
+         <string></string>
+        </void>
+        <void property="relOthId">
+         <string></string>
+        </void>
+        <void property="relOthName">
+         <string></string>
+        </void>
+        <void property="relRelId">
+         <string></string>
+        </void>
+        <void property="required">
+         <boolean>true</boolean>
+        </void>
+        <void property="size">
+         <int>100</int>
+        </void>
+        <void property="string">
+         <string></string>
+        </void>
+        <void property="type">
+         <int>3</int>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="genmod.ModAttr">
+        <void property="description">
+         <string>Teacher&apos;s phone</string>
+        </void>
+        <void property="fieldName">
+         <string>Phone</string>
+        </void>
+        <void property="initVal">
+         <string></string>
+        </void>
+        <void property="name">
+         <string>phone</string>
+        </void>
+        <void property="relObjId">
+         <string></string>
+        </void>
+        <void property="relOthId">
+         <string></string>
+        </void>
+        <void property="relOthName">
+         <string></string>
+        </void>
+        <void property="relRelId">
+         <string></string>
+        </void>
+        <void property="size">
+         <int>40</int>
+        </void>
+        <void property="string">
+         <string></string>
+        </void>
+        <void property="type">
+         <int>3</int>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="genmod.ModAttr">
+        <void property="description">
+         <string>Teacher&apos;s email</string>
+        </void>
+        <void property="fieldName">
+         <string>email</string>
+        </void>
+        <void property="initVal">
+         <string></string>
+        </void>
+        <void property="name">
+         <string>email</string>
+        </void>
+        <void property="relObjId">
+         <string></string>
+        </void>
+        <void property="relOthId">
+         <string></string>
+        </void>
+        <void property="relOthName">
+         <string></string>
+        </void>
+        <void property="relRelId">
+         <string></string>
+        </void>
+        <void property="size">
+         <int>35</int>
+        </void>
+        <void property="string">
+         <string></string>
+        </void>
+        <void property="type">
+         <int>3</int>
+        </void>
+       </object>
+      </void>
+     </void>
+     <void property="description">
+      <string>Academy Teacher</string>
+     </void>
+     <void property="menuPath">
+      <string>Academy/Teacher</string>
+     </void>
+     <void property="name">
+      <string>academy.teacher</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="genmod.ModClass">
+     <void property="attributes">
+      <void method="add">
+       <object class="genmod.ModAttr">
+        <void property="description">
+         <string>Academy subjects</string>
+        </void>
+        <void property="fieldName">
+         <string>Subject</string>
+        </void>
+        <void property="initVal">
+         <string></string>
+        </void>
+        <void property="name">
+         <string>name</string>
+        </void>
+        <void property="relObjId">
+         <string></string>
+        </void>
+        <void property="relOthId">
+         <string></string>
+        </void>
+        <void property="relOthName">
+         <string></string>
+        </void>
+        <void property="relRelId">
+         <string></string>
+        </void>
+        <void property="required">
+         <boolean>true</boolean>
+        </void>
+        <void property="size">
+         <int>32</int>
+        </void>
+        <void property="string">
+         <string></string>
+        </void>
+        <void property="type">
+         <int>3</int>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="genmod.ModAttr">
+        <void property="description">
+         <string>Subject Teacher</string>
+        </void>
+        <void property="fieldName">
+         <string>Teacher</string>
+        </void>
+        <void property="initVal">
+         <string></string>
+        </void>
+        <void property="name">
+         <string>teacher</string>
+        </void>
+        <void property="relObjId">
+         <string></string>
+        </void>
+        <void property="relOthId">
+         <string></string>
+        </void>
+        <void property="relOthName">
+         <string>academy.teacher</string>
+        </void>
+        <void property="relRelId">
+         <string></string>
+        </void>
+        <void property="required">
+         <boolean>true</boolean>
+        </void>
+        <void property="string">
+         <string></string>
+        </void>
+        <void property="type">
+         <int>9</int>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="genmod.ModAttr">
+        <void property="description">
+         <string>Subject Course</string>
+        </void>
+        <void property="fieldName">
+         <string>Course</string>
+        </void>
+        <void property="initVal">
+         <string></string>
+        </void>
+        <void property="name">
+         <string>course</string>
+        </void>
+        <void property="relObjId">
+         <string></string>
+        </void>
+        <void property="relOthId">
+         <string></string>
+        </void>
+        <void property="relOthName">
+         <string>academy.course</string>
+        </void>
+        <void property="relRelId">
+         <string></string>
+        </void>
+        <void property="required">
+         <boolean>true</boolean>
+        </void>
+        <void property="string">
+         <string></string>
+        </void>
+        <void property="type">
+         <int>9</int>
+        </void>
+       </object>
+      </void>
+     </void>
+     <void property="description">
+      <string>Academy Subjects</string>
+     </void>
+     <void property="menuPath">
+      <string>Academy/Subject</string>
+     </void>
+     <void property="name">
+      <string>academy.subject</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="genmod.ModClass">
+     <void property="attributes">
+      <void method="add">
+       <object class="genmod.ModAttr">
+        <void property="description">
+         <string>Alumn name</string>
+        </void>
+        <void property="fieldName">
+         <string>Alumn</string>
+        </void>
+        <void property="initVal">
+         <string></string>
+        </void>
+        <void property="name">
+         <string>name</string>
+        </void>
+        <void property="relObjId">
+         <string></string>
+        </void>
+        <void property="relOthId">
+         <string></string>
+        </void>
+        <void property="relOthName">
+         <string></string>
+        </void>
+        <void property="relRelId">
+         <string></string>
+        </void>
+        <void property="required">
+         <boolean>true</boolean>
+        </void>
+        <void property="size">
+         <int>100</int>
+        </void>
+        <void property="string">
+         <string></string>
+        </void>
+        <void property="type">
+         <int>3</int>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="genmod.ModAttr">
+        <void property="description">
+         <string>Alumn address</string>
+        </void>
+        <void property="fieldName">
+         <string>Address</string>
+        </void>
+        <void property="initVal">
+         <string></string>
+        </void>
+        <void property="name">
+         <string>address</string>
+        </void>
+        <void property="relObjId">
+         <string></string>
+        </void>
+        <void property="relOthId">
+         <string></string>
+        </void>
+        <void property="relOthName">
+         <string></string>
+        </void>
+        <void property="relRelId">
+         <string></string>
+        </void>
+        <void property="size">
+         <int>100</int>
+        </void>
+        <void property="string">
+         <string></string>
+        </void>
+        <void property="type">
+         <int>3</int>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="genmod.ModAttr">
+        <void property="description">
+         <string>Alumn phone</string>
+        </void>
+        <void property="fieldName">
+         <string>Phone</string>
+        </void>
+        <void property="initVal">
+         <string></string>
+        </void>
+        <void property="name">
+         <string>phone</string>
+        </void>
+        <void property="relObjId">
+         <string></string>
+        </void>
+        <void property="relOthId">
+         <string></string>
+        </void>
+        <void property="relOthName">
+         <string></string>
+        </void>
+        <void property="relRelId">
+         <string></string>
+        </void>
+        <void property="size">
+         <int>32</int>
+        </void>
+        <void property="string">
+         <string></string>
+        </void>
+        <void property="type">
+         <int>3</int>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="genmod.ModAttr">
+        <void property="description">
+         <string>Alumn email</string>
+        </void>
+        <void property="fieldName">
+         <string>email</string>
+        </void>
+        <void property="initVal">
+         <string></string>
+        </void>
+        <void property="name">
+         <string>email</string>
+        </void>
+        <void property="relObjId">
+         <string></string>
+        </void>
+        <void property="relOthId">
+         <string></string>
+        </void>
+        <void property="relOthName">
+         <string></string>
+        </void>
+        <void property="relRelId">
+         <string></string>
+        </void>
+        <void property="size">
+         <int>100</int>
+        </void>
+        <void property="string">
+         <string></string>
+        </void>
+        <void property="type">
+         <int>3</int>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="genmod.ModAttr">
+        <void property="description">
+         <string>Alumn Course</string>
+        </void>
+        <void property="fieldName">
+         <string>Course</string>
+        </void>
+        <void property="initVal">
+         <string></string>
+        </void>
+        <void property="name">
+         <string>course</string>
+        </void>
+        <void property="relObjId">
+         <string></string>
+        </void>
+        <void property="relOthId">
+         <string></string>
+        </void>
+        <void property="relOthName">
+         <string>academy.course</string>
+        </void>
+        <void property="relRelId">
+         <string></string>
+        </void>
+        <void property="required">
+         <boolean>true</boolean>
+        </void>
+        <void property="string">
+         <string></string>
+        </void>
+        <void property="type">
+         <int>9</int>
+        </void>
+       </object>
+      </void>
+     </void>
+     <void property="description">
+      <string>Academy Alumns</string>
+     </void>
+     <void property="menuPath">
+      <string>Academy/Alumn</string>
+     </void>
+     <void property="name">
+      <string>academy.alumns</string>
+     </void>
+    </object>
+   </void>
+  </void>
+  <void property="depends">
+   <string></string>
+  </void>
+  <void property="description">
+   <string>This module is a test for the module generator</string>
+  </void>
+  <void property="installable">
+   <boolean>true</boolean>
+  </void>
+  <void property="name">
+   <string>Prueba Nuevo Modulo</string>
+  </void>
+  <void property="version">
+   <string>0.1</string>
+  </void>
+  <void property="web">
+   <string>anonbeat@gmail.com</string>
+  </void>
+ </object>
+</java>
